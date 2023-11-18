@@ -52,15 +52,17 @@ Quotes are from funnyplaying directly, bullet points are me paraphrasing.
 IMPORTANT -- When updating to this build or newer from an older build, it is possible to glitch your display mode. Full Screen + Pixel Grid mode was REMOVED but the configuration does NOT reset upon reflashing. Recommend change display mode before updating. If your display mode gets glitched, roll your firmware back to an earlier version, change display modes, then try again. 
 
 # 1010
+* Version 0.87 in the menu
 > Optimized some games with abnormal sound
 > Volume brightness minimum
 > This version will serve as the initialization version
-* Version 0.87 in the menu
+
 
 # 1015
 * Unknown changes, no notes
 
 # 10.25
+* Version 0.88 in the menu
 * Unknown changes, no notes
 * Latest stable version
 * **This is probably the version you want for now.** 
@@ -70,5 +72,6 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 > There's a big problem
 
 # 1117
+* Version 0.89 in the menu
 * Unknown changes, no notes
 * Latest test version. 
