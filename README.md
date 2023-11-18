@@ -8,7 +8,8 @@ To update:
 * Device will automatically update and reboot
 * Device may disconnected or switched off (or just played, I don't judge) once file copy completed
 
-  Note that sometimes file copy may fail and device may only be partially updated. If this happens, unplug device, power cycle, and repeat steps. If this happens repeatedly, you may attempt to copy via BASH or powershell.
+
+Note that sometimes file copy may fail and device may only be partially updated. If this happens, unplug device, power cycle, and repeat steps. If this happens repeatedly, you may attempt to copy via BASH or powershell.
 
   File MUST be named "update.bin" or update WILL fail. 
 
@@ -66,6 +67,7 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 
 # 10.25.1
 * Unknown changes, no notes
+> There's a big problem
 
 # 1117
 * Unknown changes, no notes
