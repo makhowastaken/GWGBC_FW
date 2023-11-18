@@ -3,6 +3,7 @@ Historical firmware repository for the Funnyplaying FPGA GBC. No warranty, flash
 
 Per Funnyplaying:
   > Suggested upgrade  0.88  10.25
+
   > 10.25.1 There's a big problem
 
 Version Notes: *work in progress*
@@ -25,6 +26,7 @@ Quotes are from funnyplaying directly, bullet points are me paraphrasing.
 * No internal version number -- added variable clock control
 * Version 0.86? I think my notes are wrong
 * Looks to be missing a screen display mode, full + pixel grid
+
 IMPORTANT -- When updating to this build or newer from an older build, it is possible to glitch your display mode. Full Screen + Pixel Grid mode was REMOVED but the configuration does NOT reset upon reflashing. Recommend change display mode before updating. If your display mode gets glitched, roll your firmware back to an earlier version, change display modes, then try again. 
 
 # 1010
