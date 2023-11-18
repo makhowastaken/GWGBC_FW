@@ -6,13 +6,14 @@ To update:
 * Plug console into PC via USB C data cable (USB 2.0)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
 * Device will automatically update and reboot
-* Device may disconnected or switched off once file copy completed
+* Device may disconnected or switched off (or just played, I don't judge) once file copy completed
 
   Note that sometimes file copy may fail and device may only be partially updated. If this happens, unplug device, power cycle, and repeat steps. If this happens repeatedly, you may attempt to copy via BASH or powershell.
 
   File MUST be named "update.bin" or update WILL fail. 
 
   Powershell example: `Copy-Item .\update.bin -Destination e:`
+  
   Copy-Item <path to "update.bin" file> -Destination <drive letter of "FUNNY_PLAY_">
 
 Per Funnyplaying:
@@ -37,7 +38,9 @@ Quotes are from funnyplaying directly, bullet points are me paraphrasing.
 
 # 0928
 > This version is unstable Other new problems have emerged
+
 > The timing is already saturated  ，Further details need to be optimized
+
 > It's better not to update yet  Waiting for my new version
 
 # 1005
