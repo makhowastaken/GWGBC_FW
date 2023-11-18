@@ -74,4 +74,5 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 # 1117
 * Version 0.89 in the menu
 * Unknown changes, no notes
+* Experimental sleep mode -- press and hold menu button to sleep or wake device
 * Latest test version. 
