@@ -40,6 +40,7 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 
 # 10.25
 * Unknown changes, no notes
+* This is probably the version you want for now. 
 
 # 10.25.1
 * Unknown changes, no notes
