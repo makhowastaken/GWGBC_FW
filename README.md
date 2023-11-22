@@ -1,6 +1,10 @@
 # GWGBC_FW
 Historical firmware repository for the Funnyplaying FPGA GBC. No warranty, flash at your own risk, etc. etc. 
 
+As of 2023-11-21, a Windows PC is REQUIRED for Firmware updates. Ubuntu, macOS, Android (Samsung), and iOS (iPadOS) all tested failed. I suspect the issue is related to the OS creating extra files on the removable storage upon mounting. If you can disable this feature in your OS, you may be able to get it working. 
+* https://apple.stackexchange.com/questions/6707/how-to-stop-os-x-from-writing-spotlight-and-trash-files-to-memory-cards-and-usb
+* https://unix.stackexchange.com/questions/374683/how-to-disable-creation-of-trash-1000-folder
+
 To update: 
 * Switch FPGA GBC on (with no game inserted)
 * Plug console into PC via USB C data cable (USB 2.0)
@@ -9,7 +13,7 @@ To update:
 * Device may disconnected or switched off (or just played, I don't judge) once file copy completed
 
 
-Note that sometimes file copy may fail or get stuck at around 27% and device may only be partially updated. If this happens, unplug device, power cycle, and repeat steps. If this happens repeatedly, you may attempt to copy via BASH or powershell.
+Note that sometimes file copy may fail or get stuck at around 27% and device may only be partially updated. If this happens, unplug device, power cycle, and repeat steps. If this happens repeatedly, you may attempt to copy via powershell.
 
   File MUST be named "update.bin" or update WILL fail. 
 
