@@ -100,7 +100,7 @@ Please [reach out to funnyplaying directly](https://funnyplaying.com/pages/conta
 I've made lots of feature requests of funnyplaying and they've implemented at least some. We're still working out the kinks. Here is a short list of things that *have already been requested and acknowledged by funnyplaying*:
 * LUTs for display accurate color correction (planned for future FW)
 * More pixel grid modes; feature parity with their Game Boy Color Q5 laminated backlight kit (planned for future FW)
-* Lower minimum speaker volume\*
+* Lower minimum speaker volume[^1]
 * SD Card support
   * Flashing flashcarts (e.g. to replace burnmaster)
   * system updates
@@ -116,3 +116,5 @@ Funnyplaying has mentioned some of these features in a way that sounds like they
 In the short term, funnyplaying is planning a minor hardware revision to address some issues. I don't know what specifically, but I'd expect faster charging support and probably a much less tempermental firmware updater. Maybe a larger internal EEPROM to give more space for more *yet to be implemented* features. I expect these devices to start shipping without any fanfare and I'd expect them as early as batch two or three. In this short term, I also expect two re-releases of this device, one in DMG form-factor and another in MGB form-factor. The internal hardware, support, and features will be identical to this version, only the shape of the boards will be different for install in the respective shells. 
 
 While SD Card support and Game Boy Advance functionality are both planned features, I would not expect either until a full hardware refresh happens and seeing as the engineering team is currently occupied finishing this device (despite it's very recent release), I don't expect that for a while. Probably two to three years, given funnyplaying's track record with promises and deliveries. Funnyplaying iterates on hardware designs though and now that they've gotten all their iterative designs working together, development may hasten. 
+
+[^1]: So this console is so authentic, the amp makes a noticeable buzzing noise that sounds eerily similar to the CPU sound leaks on actual CGBs. Funnyplaying intentionally gimps the minimum volume levels to mask this. 
