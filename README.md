@@ -1,7 +1,12 @@
 # GWGBC_FW
-Historical firmware repository for the Funnyplaying FPGA GBC. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
+
+UPDATE 2024-01-11: A new hardware revision of this started shipping a couple weeks ago. This new variant (2024) is largely the same but uses an external crystal oscilator whereas the original hardware uses an internal frequency generator. I'm not sure the implications here (perhaps more accurate clock speed or improved overclocking?) but Funnyplaying has confirmed that new firmware is required. Therefor, this repo is ONLY for v1.0 (2023) hardware at this time. I will re-organize and update before or when firmware for the new model is released. Flashing the old firmware to the new model or vice versa will NOT damage either unit though the device will not work properly until reflashed with the matching firmware. 
+
+This is the historical firmware repository for the original hardware release of the Funnyplaying FPGA GBC. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
 
 If your device works and you're not missing \<feature\> that was added after release, probably just leave well enough alone. If you insist anyway but are having trouble deciding what to install, [this firmware](1117/) seems to be working pretty well. 
+
+[![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
 
 As of 2023-11-22, a Windows PC ([or Windows 10 Phone](https://twitter.com/makhowastaken/status/1727496794333237599)) is REQUIRED for Firmware updates. Ubuntu, macOS, Android (Samsung), and iOS (iPadOS) all tested failed. The issue appears related to how the OS itself handles mounted file systems and file transfers. I have found and tested a repeatable workaround for openSUSE user~~s~~ and I'm still working on paring down the steps, isolating the specific issue, and making it easily repeatable (via BASH script or something). I have not found any workarounds for macOS devices aside from just installing Windows via a bootcamp partition (so good luck anyone with Apple hardware made in the last four years). 
 
@@ -9,9 +14,9 @@ Sniffing some packets of a successful update (on Windows) and comparing to those
 
 ## Updating
 
-\<video coming soon\>
-
 So you've decided to tinker despite the numerous warnings. I certainly don't blame you but keep in mind that I am NOT funnyplaying nor am I on their payroll. We just have a good working relationship via mutual partners. If you run into technical issues updating, no support will be provided. You have been warned. Again. 
+
+Instructions on this process in video linked above; skip to the one hour mark.
 
 To update: 
 * On your favorite Windows PC (10/11 tested and verified, older versions should work too), download the firmware "update.bin" file for the firmware you wish to flash.
@@ -90,7 +95,15 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 * Version 0.89 in the menu
 * Fixed backlight management and controls
 * Experimental sleep mode -- press and hold menu button to sleep or wake device
-* Latest test version. RC for next stable version.
+* **This is the version I recommend.** 
+
+### [2024.1.old](2024.1.old)
+* Version 1.02 in the menu
+* Updated boot screens now use Funnyplaying logos instead of Nintendo logos
+> Optimised left and right channels
+* Fixed Tetris multiplayer link
+* Graphical corruption on first boot[^2]
+* Latest test version.
 
 
 ---
@@ -117,4 +130,6 @@ In the short term, funnyplaying is planning a minor hardware revision to address
 
 While SD Card support and Game Boy Advance functionality are both planned features, I would not expect either until a full hardware refresh happens and seeing as the engineering team is currently occupied finishing this device (despite it's very recent release), I don't expect that for a while. Probably two to three years, given funnyplaying's track record with promises and deliveries. Funnyplaying iterates on hardware designs though and now that they've gotten all their iterative designs working together, development may hasten. 
 
-[^1]: So this console is so authentic, the amp makes a noticeable buzzing noise that sounds eerily similar to the CPU sound leaks on actual CGBs. Funnyplaying intentionally gimps the minimum volume levels to mask this. 
+[^1]: So this console is so authentic, the amp makes a noticeable buzzing noise that sounds eerily similar to the CPU sound leaks on actual CGBs. Funnyplaying intentionally gimps the minimum volume levels to mask this. (It's not the same noise, just similar)
+
+[^2]: After updating to the test version 1.02, my console experienced bootlooping and severe graphical corruption for the first several boots. After about five power cycles, the problem hasn't reocurred. I was able to reproduce this exact behavior on a second unit by going from the most recent firmware to this version. 
