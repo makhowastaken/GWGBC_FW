@@ -1,6 +1,6 @@
 # GWGBC_FW
 
-UPDATE 2024-01-11: A new hardware revision of this started shipping a couple weeks ago. This new variant (2024) is largely the same but uses an external crystal oscilator whereas the original hardware uses an internal frequency generator. I'm not sure the implications here (perhaps more accurate clock speed or improved overclocking?) but Funnyplaying has confirmed that new firmware is required. Therefor, this repo is ONLY for v1.0 (2023) hardware at this time. I will re-organize and update before or when firmware for the new model is released. Flashing the old firmware to the new model or vice versa will NOT damage either unit though the device will not work properly until reflashed with the matching firmware. 
+UPDATE 2024-01-12: A new hardware revision of this started shipping a couple weeks ago. This new variant (v1.1) is largely the same but uses an external crystal oscilator whereas the original hardware uses an internal frequency generator. I'm not sure the implications here (perhaps more accurate clock speed or improved overclocking?) but Funnyplaying has confirmed that new firmware is required. Therefor, this repo is ONLY for v1.0 and pre-release hardware at this time. I will re-organize and update before or when firmware for the new model is released. Flashing the old firmware to the new model or vice versa will NOT damage either unit though the device will not work properly until reflashed with the matching firmware. 
 
 This is the historical firmware repository for the original hardware release of the Funnyplaying FPGA GBC. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
 
@@ -8,7 +8,7 @@ If your device works and you're not missing \<feature\> that was added after rel
 
 [![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
 
-As of 2023-11-22, a Windows PC ([or Windows 10 Phone](https://twitter.com/makhowastaken/status/1727496794333237599)) is REQUIRED for Firmware updates. Ubuntu, macOS, Android (Samsung), and iOS (iPadOS) all tested failed. The issue appears related to how the OS itself handles mounted file systems and file transfers. I have found and tested a repeatable workaround for openSUSE user~~s~~ and I'm still working on paring down the steps, isolating the specific issue, and making it easily repeatable (via BASH script or something). I have not found any workarounds for macOS devices aside from just installing Windows via a bootcamp partition (so good luck anyone with Apple hardware made in the last four years). 
+A Windows PC ([or Windows 10 Phone](https://twitter.com/makhowastaken/status/1727496794333237599)) is REQUIRED for Firmware updates. Ubuntu, macOS, Android (Samsung), and iOS (iPadOS) all tested failed. The issue appears related to how the OS itself handles mounted file systems and file transfers. I have found and tested a repeatable workaround for openSUSE user~~s~~ and I still need to work on paring down the steps, isolating the specific issue, and making it easily repeatable (via BASH script or something) though I am unlikely to make any progress on this. I have not found any workarounds for macOS devices aside from just installing Windows via a bootcamp partition (so good luck anyone with Apple hardware made in the last four years). 
 
 Sniffing some packets of a successful update (on Windows) and comparing to those from a failed update (on macOS), it looks like updating is handled via some form of DAPLink implementation so the observed behavior may [have the same cause.](https://github.com/ARMmbed/DAPLink/issues/982) Despite that, however, the listed workarounds are NOT working. 
 
@@ -96,6 +96,11 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 * Fixed backlight management and controls
 * Experimental sleep mode -- press and hold menu button to sleep or wake device
 * **This is the version I recommend.** 
+
+### Unknown Build
+* Version 0.9 in the menu
+* Initial firmware on v1.1 hardware revisions
+* Unknown changes
 
 ### [2024.1.old](2024.1.old)
 * Version 1.02 in the menu
