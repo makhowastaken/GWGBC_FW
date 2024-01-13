@@ -10,7 +10,7 @@ My video on the v1.0 hardware:
 
 [![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
 
-To proceed to firmware files, pick your hardware appropriately. Click the image that matches the device you have. 
+To proceed to firmware files, pick your hardware appropriately. **Click** the image that matches the device you have. Note the version number in the top right corner. 
 
 [![HW v1.0](./media/v1.0_Front.jpg)](HWv1_0/)
 
