@@ -19,10 +19,12 @@ To update:
 * On your favorite PC (macOS tested and verified on v1.1, Linux and co. presumed working), download the firmware "update.bin" file for the firmware you wish to flash.
 * File must be named "update.bin". You cannot rename after copying. 
 * Switch FPGA GBC on with no game inserted
-* Plug console into PC via USB C data cable (USB 2.0 is fine but USB 3.0 or USB C host type cables should also work)
+* Plug console into PC via USB-C data cable (USB 2.0 is fine but USB 3.0 or USB-C host type cables should also work)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
 * Device will automatically update and reboot
 * Device may now be disconnected or switched off (or just played, I don't judge) once file copy completed
+* If the screen is pink/corrupted, disconnect the battery, cycle the power switch (on then off), and reconnect the battery
+  * It seems that removing the power and draining the capacitors is enough to allow the update process to "complete"
 
 # Version Notes: *work in progress*
 
@@ -30,7 +32,7 @@ These firmware files have been provided to me via Funnyplaying directly and publ
 
 > Quotes
 
-are from funnyplaying directly, 
+are from FunnyPlaying directly, 
 
 * bullet points are me paraphrasing.
 
