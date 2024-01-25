@@ -1,0 +1,15 @@
+这个版本针对硬件版本 V1.1以上的固件更新
+V1.04 240125 更新说明：
+1.重新优化了OSD架构
+2.增加了对EverDrive-GB Model 17，Rev . E的支持
+3优化了开机LOGO的布局
+
+This version is for firmware updates above hardware version 1.1
+
+V1.04 240125 update instructions:
+
+1. Reoptimized OSD architecture
+
+2. Added support for EverDrive GB Model 17, Rev E's support
+
+3. Optimized the layout of the startup logo

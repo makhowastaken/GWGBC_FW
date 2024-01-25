@@ -42,4 +42,16 @@ are from funnyplaying directly,
 ### [2024.1](2024.1)
 * Version 1.02 in the menu
 * Unknown changes over v0.9
-* Latest test version.
+
+### [2024.1.8](2024.1.8)
+* Version 1.02 in the menu (same as above)
+> 1. Modifying the startup logo
+> 2. Partially removed GB mode color palette
+> 3. Stability optimization
+
+### [2024.1](2024.1)
+* Version 1.04 in the menu
+> 1. Reoptimized OSD architecture
+> 2. Added support for EverDrive GB Model 17, Rev E's support
+> 3. Optimized the layout of the startup logo
+

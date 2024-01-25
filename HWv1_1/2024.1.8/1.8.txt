@@ -1,0 +1,13 @@
+2024.1.8 - 1.02版本更新说明：
+1、开机logo修改
+2、去除了一部分GB模式的调色板
+3、稳定性优化
+
+
+2024.1.8-1.02 version update instructions:
+
+1. Modifying the startup logo
+
+2. Partially removed GB mode color palette
+
+3. Stability optimization
