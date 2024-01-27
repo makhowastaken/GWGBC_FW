@@ -1,8 +1,6 @@
 # Hardware Version 1.1
 
-THIS SECTION OF THE REPO IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or newer, this firmware will NOT work on your device. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
-
-These devices started shipping with v0.9 firmware but I only have v1.02. Do NOT update your device if you think you may wish to roll back to v0.9 because until FP distributes the FW, this is not possible. 
+THIS SECTION OF THE REPO IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or any prototype devices, this firmware will NOT work on your device. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
 
 My video on the v1.0 hardware which should have all the same features and functionality:
 
@@ -11,7 +9,7 @@ My video on the v1.0 hardware which should have all the same features and functi
 
 ## Updating
 
-So you've decided to tinker despite the numerous warnings. I certainly don't blame you but keep in mind that I am NOT funnyplaying nor am I on their payroll. We just have a good working relationship via mutual partners. If you run into technical issues updating, no support will be provided. You have been warned. Again. 
+So you've decided to tinker despite the numerous warnings. I certainly don't blame you but keep in mind that I am NOT funnyplaying nor am I on their payroll. We just have a good working relationship via mutual partners. If you run into technical issues updating, no support will be provided by me. You have been warned. Again. 
 
 Instructions on this process in video linked above; skip to the one hour mark.
 
@@ -49,7 +47,7 @@ are from funnyplaying directly,
 > 2. Partially removed GB mode color palette
 > 3. Stability optimization
 
-### [2024.1](2024.1)
+### [22024.1.25](2024.1.25)
 * Version 1.04 in the menu
 > 1. Reoptimized OSD architecture
 > 2. Added support for EverDrive GB Model 17, Rev E's support

@@ -4,7 +4,7 @@ WARNING: There are several different versions of the hardware out in the wild no
 
 If your v1.0 device works and you're not missing \<feature\> that was added after release, probably just leave well enough alone. If you insist anyway but are having trouble deciding what to install, [this firmware](HWv1_0/1117/) seems to be working pretty well. 
 
-If you've reflashed your v1.1 device with v1.0 firmware, well, your only choice until I get more firmware files is to install [V1.02 (TEST)](HWv1_1/2024.1/) firmware.
+If you've reflashed your v1.1 device with v1.0 firmware, please reflash with [firmware meant for v1.1 hardware.](HWv1_1/) Else your device will refuse to boot carts until you do. 
 
 My video on the v1.0 hardware:
 
