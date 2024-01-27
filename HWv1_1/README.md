@@ -49,7 +49,7 @@ are from funnyplaying directly,
 > 2. Partially removed GB mode color palette
 > 3. Stability optimization
 
-### [2024.1](2024.1)
+### [2024.1.25](2024.1.25)
 * Version 1.04 in the menu
 > 1. Reoptimized OSD architecture
 > 2. Added support for EverDrive GB Model 17, Rev E's support
