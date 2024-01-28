@@ -5,6 +5,11 @@ THIS SECTION OF THE REPO IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or any
 My video on the v1.0 hardware which should have all the same features and functionality:
 
 [![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
+
+New on v1.1 (compared to v1.0)
+* More accurate clock speed
+* Faster charging (500mA -> 1A)
+* Updateable on macOS
  
 
 ## Updating
@@ -17,7 +22,7 @@ To update:
 * On your favorite PC (macOS tested and verified on v1.1, Linux and co. presumed working), download the firmware "update.bin" file for the firmware you wish to flash.
 * File must be named "update.bin". You cannot rename after copying. 
 * Switch FPGA GBC on with no game inserted
-* Plug console into PC via USB C data cable (USB 2.0 is fine but USB 3.0 or USB C host type cables should also work)
+* Plug console into PC via USB Type C data cable (USB 2.0 is fine but USB 3.0 or USB Type C host type cables should also work)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
 * Device will automatically update and reboot
 * Device may now be disconnected or switched off (or just played, I don't judge) once file copy completed
