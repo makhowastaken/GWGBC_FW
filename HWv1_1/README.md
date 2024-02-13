@@ -1,35 +1,44 @@
 # Hardware Version 1.1
 
-THIS SECTION OF THE REPO IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or any prototype devices, this firmware will NOT work on your device. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
+> [!CAUTION]
+> THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-My video on the v1.0 hardware which should have all the same features and functionality:
-
-[![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
+[![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
 New on v1.1 (compared to v1.0)
 * More accurate clock speed
 * Faster charging (500mA -> 1A)
 * Updateable on macOS
+
+New on v1.11 (compared to v1.1)
+* Speaker resistor value changed to 150k instead of 51k. Unknown effect.
+* Two new caps near USB port. Unknown effect. 
  
 
 ## Updating
 
-So you've decided to tinker despite the numerous warnings. I certainly don't blame you but keep in mind that I am NOT funnyplaying nor am I on their payroll. We just have a good working relationship via mutual partners. If you run into technical issues updating, no support will be provided by me. You have been warned. Again. 
-
-Instructions on this process in video linked above; skip to the one hour mark.
+Instructions on this process in video linked above; [skip to the thirty nine minute mark.](https://youtu.be/YM7wYx_SsRY&t=2341)
 
 To update: 
 * On your favorite PC (macOS tested and verified on v1.1, Linux and co. presumed working), download the firmware "update.bin" file for the firmware you wish to flash.
-* File must be named "update.bin". You cannot rename after copying. 
-* Switch FPGA GBC on with no game inserted
+* File must be named "update.bin". You cannot rename after copying. Note that Safari on macOS downloads the file with the name "true". You will need to rename to "update.bin".
+* Switch FPGA GBC on with no game inserted (for safety -- a game won't interfere with the update process but the update could wipe your save) 
 * Plug console into PC via USB Type C data cable (USB 2.0 is fine but USB 3.0 or USB Type C host type cables should also work)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
 * Device will automatically update and reboot
 * Device may now be disconnected or switched off (or just played, I don't judge) once file copy completed
 
+Occasionally, the saved display profile is corrupt and the console will display a garbled screen image on boot after updating to a different firmware version. 
+
+To fix this, you need to blindly modify the settings. Try the following keypresses to save defaults and reset the console -- display should be usable from there. This is known to occur for users updating from 0.90 to 1.02 on v1.1 hardware and from 0928 or earlier builds to 1005 and later builds on v1.0 hardware. 
+
+| [<img src="../media/purple_screen.jpg" width="350" />](../media/purple_screen.jpg) | Reset Corrupt OSD settings<br><br><ol><li>Open OSD</li><li>Press down on dpad 9 times</li><li>Press A</li><li>Press up on dpad 1 time</li><li>Press A</li></ol><br><br>[(credit: HDR)](https://twitter.com/MartinRefseth) |
+| :---: | :--- |
+
+
 # Version Notes: *work in progress*
 
-These firmware files have been provided to me via Funnyplaying directly and published with their permission. I have not coded, compiled, or had any involvement on the technical side here. My only direct involvement was an unpaid* QA role. They provided me the device and firmware files, I provide(d) them actionable feedback on the device. If you have feature requests or bug reports, I recommend you contact funnyplaying directly.
+These firmware files have been provided to me via Funnyplaying directly and published with their permission. I have not coded, compiled, or had any involvement on the technical side here. 
 
 > Quotes
 
@@ -45,6 +54,7 @@ are from funnyplaying directly,
 ### [2024.1](2024.1)
 * Version 1.02 in the menu
 * Unknown changes over v0.9
+* This release is unstable and not recommended for flashing
 
 ### [2024.1.8](2024.1.8)
 * Version 1.02 in the menu (same as above)
