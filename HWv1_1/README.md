@@ -35,8 +35,7 @@ To fix this, you need to blindly modify the settings. Try the following keypress
 | [<img src="../media/purple_screen.jpg" width="350" />](../media/purple_screen.jpg) | Reset Corrupt OSD settings<br><br><ol><li>Open OSD</li><li>Press down on dpad 9 times</li><li>Press A</li><li>Press up on dpad 1 time</li><li>Press A</li></ol><br><br>[(credit: HDR)](https://twitter.com/MartinRefseth) |
 | :---: | :--- |
 
-Note that [debouncing](https://www.techtarget.com/whatis/definition/debouncing) does not appear to be implemented for OSD controls so this may take several attempts. Without debouncing, one button press could be interpreted as two or more by the system. Try power cycling the console between attempts. 
-
+Note that [debouncing](https://www.techtarget.com/whatis/definition/debouncing) does not appear to be implemented for OSD controls in some firmware versions so this may take several attempts. Without debouncing, one button press could be interpreted as two or more by the system. Try power cycling the console between attempts to reset to a known state. 
 
 # Version Notes: *work in progress*
 
