@@ -10,7 +10,7 @@ Please [reach out to funnyplaying directly](https://funnyplaying.com/pages/conta
 
 To proceed to firmware files, select the image based on the hardware you have (below). Note the version number in the top right corner of the device PCB. 
 
-| [<img src="./media/v1.0_Front.jpg" width="350" />](HWv1_0/) | [<img src="./media/v1.1_Front.jpg" width="350" />](HWv1_0/) |
+| [<img src="./media/v1.0_Front.jpg" width="350" />](HWv1_0/) | [<img src="./media/v1.1_Front.jpg" width="350" />](HWv1_1/) |
 | :---: | :---: |
 | [HW v1.0](HWv1_0/) | [HW v1.1/v1.11](HWv1_1/) |
 
