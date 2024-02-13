@@ -20,13 +20,13 @@ New on v1.11 (compared to v1.1)
 Instructions on this process in video linked above; [skip to the thirty nine minute mark.](https://youtu.be/YM7wYx_SsRY&t=2341)
 
 To update: 
-* On your favorite PC (macOS tested and verified on v1.1, Linux and co. presumed working), download the firmware "update.bin" file for the firmware you wish to flash.
-* File must be named "update.bin". You cannot rename after copying. Note that Safari on macOS downloads the file with the name "true". You will need to rename to "update.bin".
-* Switch FPGA GBC on with no game inserted (for safety -- a game won't interfere with the update process but the update could wipe your save) 
+* On your Windows or mac PC, download the firmware "update.bin" file from this repository or funnyplaying's google drive links
+* Firmware update **must** be named "update.bin". You cannot rename after copying.
+* Switch FPGA GBC on with no game inserted
 * Plug console into PC via USB Type C data cable (USB 2.0 is fine but USB 3.0 or USB Type C host type cables should also work)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
-* Device will automatically update and reboot
-* Device may now be disconnected or switched off (or just played, I don't judge) once file copy completed
+* Device will begin the update immediately while file copies
+* Once copy is completed and device reboots, the update is completed
 
 Occasionally, the saved display profile is corrupt and the console will display a garbled screen image on boot after updating to a different firmware version. 
 
@@ -34,6 +34,8 @@ To fix this, you need to blindly modify the settings. Try the following keypress
 
 | [<img src="../media/purple_screen.jpg" width="350" />](../media/purple_screen.jpg) | Reset Corrupt OSD settings<br><br><ol><li>Open OSD</li><li>Press down on dpad 9 times</li><li>Press A</li><li>Press up on dpad 1 time</li><li>Press A</li></ol><br><br>[(credit: HDR)](https://twitter.com/MartinRefseth) |
 | :---: | :--- |
+
+Note that [debouncing](https://www.techtarget.com/whatis/definition/debouncing) does not appear to be implemented for OSD controls so this may take several attempts. Without debouncing, one button press could be interpreted as two or more by the system. Try power cycling the console between attempts. 
 
 
 # Version Notes: *work in progress*
