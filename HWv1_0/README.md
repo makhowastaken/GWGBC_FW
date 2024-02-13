@@ -31,7 +31,7 @@ Occasionally, the saved display profile is corrupt and the console will display 
 To fix this, you need to blindly modify the settings. Try these keypresses to save defaults and reset the console -- display should be usable from there. This is known to occur for users updating from 0.90 to 1.02. [(credit: HDR)](https://twitter.com/MartinRefseth)
 
 | [<img src="../media/purple_screen.jpg" width="350" />](../media/purple_screen.jpg) | <ol><li>Open OSD</li><li>Press down on dpad 9 times</li><li>Press A</li><li>Press up on dpad 1 time</li><li>Press A</li></ol> |
-| :---: | :---: |
+| :---: | :--- |
 
 # Version Notes: *work in progress*
 
