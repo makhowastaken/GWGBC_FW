@@ -1,25 +1,20 @@
 # Hardware Version 1.0
 
-THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.0 HARDWARE. If you have have V1.1 or newer, this firmware will NOT work on your device. No warranty, flash at your own risk, etc. etc. The firmware for the circuit that deals with updates is separate from the firmware for the rest of the device so a failed update is as easy to recover from as just attempting to update again. That being said, the firmware updates can be extremely tempermental. Sometimes it just works, sometimes it doesn't work no matter what and it just starts working again later. You have been warned.
-
-If your device works and you're not missing \<feature\> that was added after release, probably just leave well enough alone. If you insist anyway but are having trouble deciding what to install, [this firmware](1117/) seems to be working pretty well. 
+> [!CAUTION]
+> THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.0 HARDWARE. If you have have V1.1 or newer, this firmware will NOT work on your device. 
 
 [![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
 
-A Windows PC ([or Windows 10 Phone](https://twitter.com/makhowastaken/status/1727496794333237599)) is REQUIRED for Firmware updates. Ubuntu, macOS[^1], Android (Samsung), and iOS (iPadOS) all tested failed out of the box. The issue appears related to how the OS itself handles mounted file systems and file transfers. I have found and tested a repeatable workaround for openSUSE user~~s~~ and I still need to work on paring down the steps, isolating the specific issue, and making it easily repeatable (via BASH script or something) though I am unlikely to make any progress on this. I have not found any workarounds for macOS devices aside from just installing Windows via a bootcamp partition (so good luck anyone with Apple hardware made in the last four years). 
-
-Sniffing some packets of a successful update (on Windows) and comparing to those from a failed update (on macOS), it looks like updating is handled via some form of DAPLink implementation so the observed behavior may [have the same cause.](https://github.com/ARMmbed/DAPLink/issues/982) Despite that, however, the listed workarounds are NOT working. 
+A Windows PC ([or Windows 10 Phone](https://twitter.com/makhowastaken/status/1727496794333237599)) is REQUIRED for Firmware updates. Ubuntu, macOS[^1], Android (Samsung), and iOS (iPadOS) all tested failed out of the box. There is, however, [experimental macOS support.](https://twitter.com/ShinyQuagsire/status/1749978350246941057)
 
 ## Updating
-
-So you've decided to tinker despite the numerous warnings. I certainly don't blame you but keep in mind that I am NOT funnyplaying nor am I on their payroll. We just have a good working relationship via mutual partners. If you run into technical issues updating, no support will be provided. You have been warned. Again. 
 
 Instructions on this process in video linked above; skip to the one hour mark.
 
 To update: 
 * On your favorite Windows PC (10/11 tested and verified), download the firmware "update.bin" file for the firmware you wish to flash.
 * File must be named "update.bin". You cannot rename after copying. 
-* Switch FPGA GBC on with no game inserted
+* Switch FPGA GBC on with no game inserted (for safety -- a game won't interfere with the update process but the update could wipe your save) 
 * Plug console into PC via USB C data cable (USB 2.0 is fine but USB 3.0 or USB C host type cables should also work)
 * Copy "update.bin" file over to 1MB "FUNNY_PLAY_" file system
 * Device will automatically update and reboot
@@ -30,12 +25,24 @@ Note that sometimes file copy may fail or get stuck at around 27% and device may
   Powershell example: `Copy-Item .\update.bin -Destination e:`
   
   Copy-Item *<path to "update.bin" file>* -Destination *<drive letter of "FUNNY_PLAY_">*
-  
-  Alternatively, there is now [experimental macOS support.](https://twitter.com/ShinyQuagsire/status/1749978350246941057)
+
+Occasionally, the saved display profile is corrupt and the console will display a garbled screen image on boot. 
+
+[![Corrupt Display Profile](../media/purple_screen.jpg)](../media/purple_screen.jpg)
+
+To fix this, you need to blindly modify the settings. Try these keypresses to save defaults and reset the console -- display should be usable from there. This is known to occur for users updating from 0.90 to 1.02. [(credit: HDR)](https://twitter.com/MartinRefseth)
+
+```
+1. Open OSD
+2. Press down on dpad 9 times
+3. Press A
+4. Press up on dpad 1 time
+5: Press A
+```
 
 # Version Notes: *work in progress*
 
-These firmware files have been provided to me via Funnyplaying directly and published with their permission. I have not coded, compiled, or had any involvement on the technical side here. My only direct involvement was an unpaid* QA role. They provided me the device and firmware files, I provide(d) them actionable feedback on the device. If you have feature requests or bug reports, I recommend you contact funnyplaying directly.
+These firmware files have been provided to me via Funnyplaying directly and published with their permission. I have not coded, compiled, or had any involvement on the technical side here. 
 
 > Quotes
 
@@ -115,4 +122,4 @@ IMPORTANT -- When updating to this build or newer from an older build, it is pos
 
 [^1]: Shiny Quagsire has posted a script to their github that can do updates from macOS however I have not personally tested nor proofread the script. It's probably fine but you should be cautious about running ANY script or command as root if you do not know explicitely what it does. You may find the script here: [https://gist.github.com/shinyquagsire23/b6322687a153114e5a0a46e4ff91e8c0](https://gist.github.com/shinyquagsire23/b6322687a153114e5a0a46e4ff91e8c0)
 
-[^2]: After updating to the test version 1.02, my console experienced bootlooping and severe graphical corruption for the first several boots. After about five power cycles, the problem hasn't reocurred. I was able to reproduce this exact behavior on a second unit by going from the most recent firmware to this version. 
+[^2]: After updating to the test version 1.02, my console experienced bootlooping and severe graphical corruption for the first several boots. After about five power cycles, the problem hasn't reocurred. I was able to reproduce this exact behavior on a second unit by going from the most recent firmware to this version. See HDR's fix above. 
