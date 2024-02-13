@@ -1,7 +1,9 @@
 # GWGBC_FW
 
 > [!NOTE]
-> I, MAKHO, DO NOT MAINTAIN THIS DEVICE OR THE FIRMWARE. I AM ONLY HOSTING A GITHUB REPO WITH THE HISTORICAL FIRMWARE RELEASES FROM FUNNYPLAYING. Please [reach out to funnyplaying directly](https://funnyplaying.com/pages/contact-us) if you have any bug reports or feature requests not listed below or otherwise need any assistance with the device. I do not provide support for this hardware and I will not respond to any requests. I do not have source code for these firmware files. All are pre-compiled and encrypted. 
+> I, MAKHO, DO NOT MAINTAIN THIS DEVICE OR THE FIRMWARE. I AM ONLY HOSTING A GITHUB REPO WITH THE HISTORICAL FIRMWARE RELEASES FROM FUNNYPLAYING. 
+
+Please [reach out to funnyplaying directly](https://funnyplaying.com/pages/contact-us) if you have any bug reports or feature requests not listed below or otherwise need any assistance with the device. I do not provide support for this hardware and I will not respond to any requests. I do not have source code for these firmware files. All are pre-compiled and encrypted. 
 
 > [!WARNING]
 > Ensure you use [v1.1](HWv1_1/) firmware if you have a v1.1 hardware based device (v1.11). Your console will not boot cartridges if you flash the wrong firmware and will be unusuable until you reflash with the correct firmware. [v1.0](HWv1_0/) firmware is kept separate. 
@@ -12,14 +14,9 @@ Overview of the device itself via my video on the v1.0 hardware:
 
 To proceed to firmware files, select either [HW v1.0](HWv1_0/) or [HW v1.1/v1.11](HWv1_1/) based on the hardware you have (below). Note that "v1.11" devices use the same firmware as "v1.1" devices. You may also **click** the image that matches the device you have. Note the version number in the top right corner. 
 
-<p align="center">
-  [!<img src="./media/v1.0_Front.jpg" width="256">](HWv1_0/)
-  <img src="./media/v1.1_Front.jpg" width="256">
-</p>
+[![HW v1.0](./media/v1.0_Front.jpg)](HWv1_0/){:width="300px"}
 
-[![HW v1.0](./media/v1.0_Front.jpg)](HWv1_0/)
-
-[![HW v1.1](./media/v1.1_Front.jpg)](HWv1_1/)
+[![HW v1.1](./media/v1.1_Front.jpg)](HWv1_1/){:width="300px"}
 
 I've made lots of feature requests of funnyplaying and they've implemented at least some. They're still working out the kinks. Here is a short list of things that *have already been requested and acknowledged by funnyplaying*:
 * LUTs for display accurate color correction (planned for future FW)
