@@ -14,9 +14,9 @@ To proceed to firmware files, select the image based on the hardware you have (b
 | :---: | :---: |
 | [HW v1.0](HWv1_0/) | [HW v1.1/v1.11](HWv1_1/) |
 
-Overview of the device itself via my video on the v1.0 hardware:
+Overview of the device itself via my video on the v1.1 hardware:
 
-[![Funnyplaying GWGBC -- FPGA BASED GAME BOY COLOR](https://img.youtube.com/vi/T4LSHpKfPGs/0.jpg)](https://www.youtube.com/watch?v=T4LSHpKfPGs)
+[![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
 ---
 
@@ -36,7 +36,7 @@ I've made lots of feature requests of funnyplaying and they've implemented at le
 
 Funnyplaying has mentioned some of these features in a way that sounds like they're trying to add to the next FW revision (pixel grid modes). From the inception of the device, Funnyplaying has planned IR function but since several revisions of retail boards have shipped without the requisite hardware, I wouldn't hold my breath. I'd treat the rest of these features like that too. Other features they want to add not just to the device but to their backlight kits too (like LUTs) and I expect them to show up there first. 
 
-In this short term, I expect two re-releases of this device, one in DMG form-factor and another in MGB form-factor. The internal hardware, support, and features will be identical to this version, only the shape of the boards will be different for install in the respective shells. Likely the devices will use the same firmware as well. 
+In the short term, I expect two re-releases of this device, one in DMG form-factor and another in MGB form-factor. The internal hardware, support, and features will be identical to this version, only the shape of the boards will be different for install in the respective shells. Likely the devices will use the same firmware as well. 
 
 While SD Card support and Game Boy Advance functionality are both planned features, I would not expect either until a full hardware refresh happens in probably two to three years, given funnyplaying's track record with promises and deliveries.
 
