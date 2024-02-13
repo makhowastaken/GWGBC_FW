@@ -26,19 +26,18 @@ Note that sometimes file copy may fail or get stuck at around 27% and device may
   
   Copy-Item *<path to "update.bin" file>* -Destination *<drive letter of "FUNNY_PLAY_">*
 
-Occasionally, the saved display profile is corrupt and the console will display a garbled screen image on boot. 
-
-[![Corrupt Display Profile](../media/purple_screen.jpg)](../media/purple_screen.jpg)
+Occasionally, the saved display profile is corrupt and the console will display a garbled screen image on boot after updating to a different firmware version. 
 
 To fix this, you need to blindly modify the settings. Try these keypresses to save defaults and reset the console -- display should be usable from there. This is known to occur for users updating from 0.90 to 1.02. [(credit: HDR)](https://twitter.com/MartinRefseth)
 
-```
+| [<img src="../media/purple_screen.jpg" width="350" />](../media/purple_screen.jpg) | ```
 1. Open OSD
 2. Press down on dpad 9 times
 3. Press A
 4. Press up on dpad 1 time
 5: Press A
-```
+``` |
+| :---: | :---: |
 
 # Version Notes: *work in progress*
 
