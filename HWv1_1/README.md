@@ -3,7 +3,7 @@
 > [!CAUTION]
 > THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-[New v1.06 firmware!](2024.2.7\patched_bootlogo) for v1.1 hardware 
+[New v1.06 firmware!](2024.2.7/patched_bootlogo) for v1.1 hardware 
 
 [![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
@@ -76,5 +76,5 @@ are from funnyplaying directly,
 * 2. Fixed OSD transparency
 * 3. Fixed sprites error in *Pokemon Puzzle Challenge*
 * 4. Fixed issue causing boot failure in *Pinball - Revenge of the Gator*
-* 5. I have included a [version with a patched bootloader](2024.2.7\patched_bootlogo) for a different aesthetic
+* 5. I have included a [version with a patched bootloader](2024.2.7/patched_bootlogo) for a different aesthetic
 
