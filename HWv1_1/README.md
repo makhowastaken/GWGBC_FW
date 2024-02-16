@@ -72,9 +72,9 @@ are from funnyplaying directly,
 
 ### [2024.2.7](2024.2.7)
 * Version 1.06 in the menu
-* 1. Lowered minimum volume
-* 2. Fixed OSD transparency
-* 3. Fixed sprites error in *Pokemon Puzzle Challenge*
-* 4. Fixed issue causing boot failure in *Pinball - Revenge of the Gator*
-* 5. I have included a [version with a patched bootloader](2024.2.7/patched_bootlogo) for a different aesthetic
+* Lowered minimum volume
+* Fixed OSD transparency
+* Fixed sprites error in *Pokemon Puzzle Challenge*
+* Fixed issue causing boot failure in *Pinball - Revenge of the Gator*
+* I have included a [version with a patched bootloader](2024.2.7/patched_bootlogo) for a different aesthetic
 
