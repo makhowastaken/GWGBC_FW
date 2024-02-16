@@ -1,0 +1,21 @@
+此固件只适用于硬件V1.1以上版本
+
+2024.2.7 - 1.06版本更新说明：
+1. 调整最低音量大小
+2. 优化OSD背景色分离
+3. 稳定部分游戏精灵出错（Pokemon Puzzle Challenge..）
+4. 优化部分游戏联机失败（Pinball - Revenge of the Gator..）
+
+注意：升级失败不会损坏设备，如出现升级失败你可以尝试更换数据线或者电脑再次升级
+
+
+
+2024.2.7-1.02 version update instructions:
+
+1. Adjust the minimum volume size
+
+2. Optimize OSD background color separation
+
+3. Error in stabilizing some game sprites (Pokemon Puzzle Challenge...)
+
+4. Optimizing some games online failed (Pinball - Revenge of the Gator...)
