@@ -48,21 +48,15 @@ are from funnyplaying directly,
 
 * bullet points are me paraphrasing.
 
-### Unknown Build
-* Version 0.9 in the menu
-* Initial firmware on v1.1 hardware revisions
-* Unknown changes
+**New!** Now ordered from newest to oldest like it should have been from the start.
 
-### [2024.1](2024.1)
-* Version 1.02 in the menu
-* Unknown changes over v0.9
-* This release is unstable and not recommended for flashing
-
-### [2024.1.8](2024.1.8)
-* Version 1.02 in the menu (same as above)
-> 1. Modifying the startup logo
-> 2. Partially removed GB mode color palette
-> 3. Stability optimization
+### [2024.2.7](2024.2.7)
+* Version 1.06 in the menu
+* Lowered minimum volume
+* Fixed OSD transparency
+* Fixed sprites error in *Pokemon Puzzle Challenge*
+* Fixed issue with multiplayer in *Pinball - Revenge of the Gator*
+* I have included a [version with a patched bootloader](2024.2.7/patched_bootlogo) for a different aesthetic
 
 ### [2024.1.25](2024.1.25)
 * Version 1.04 in the menu
@@ -70,11 +64,18 @@ are from funnyplaying directly,
 > 2. Added support for EverDrive GB Model 17, Rev E's support
 > 3. Optimized the layout of the startup logo
 
-### [2024.2.7](2024.2.7)
-* Version 1.06 in the menu
-* Lowered minimum volume
-* Fixed OSD transparency
-* Fixed sprites error in *Pokemon Puzzle Challenge*
-* Fixed issue causing boot failure in *Pinball - Revenge of the Gator*
-* I have included a [version with a patched bootloader](2024.2.7/patched_bootlogo) for a different aesthetic
+### [2024.1.8](2024.1.8)
+* Version 1.02 in the menu (same as above)
+> 1. Modifying the startup logo
+> 2. Partially removed GB mode color palette
+> 3. Stability optimization
 
+### [2024.1](2024.1)
+* Version 1.02 in the menu
+* Unknown changes over v0.9
+* This release is unstable and not recommended for flashing
+
+### Unknown Build
+* Version 0.9 in the menu
+* Initial firmware on v1.1 hardware revisions
+* Unknown changes
