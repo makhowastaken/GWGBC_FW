@@ -45,17 +45,51 @@ are from funnyplaying directly,
 
 I don't have proper change logs for these updates. I only have context clues from funnyplaying directly and they communicate via a translator so sometimes context is lost. Internal build numbers just look to be based on the compilation date so build `0725` is an unknown version but it was compiled from the main branch `July 25th (of 2023)`. Sometimes there are two firmware updates the same day and FP will tack on a `.1` or `01` interchangeably. 
 
-### [0725](0725)
-* No internal version number -- Fixes audio pop on start and adds stereo support to speaker
-* Not first firmware version but first firmware version that can be flashed without a dedicated FPGA programmer. Earlier versions not provided (and not yet dumped)
+**New!** Now ordered from newest to oldest like it should have been from the start.
 
-### [0823](0823)
-* No internal version number -- Fixes GB Camera and Pokemon Crystal (US) compatibility and other SRAM/FRAM cart compatibility (insideGadgets and HDR carts)
-* Adds GBC palette mode display option. Toggle this option if sprites do not render properly in games under the GBC core (e.g. GB game running under GBC core may require a different option than just using the GB core)
-* "Engineering test build" -- menu open on every boot (may simply be closed)
+### [2024.1.old](2024.1.old)
+* Version 1.02 in the menu
+* Updated boot screens now use Funnyplaying logos instead of Nintendo logos
+> Optimised left and right channels
+* Fixed Tetris multiplayer link
+* Graphical corruption on first boot[^2]
+* Latest test version.
 
-### [082301](082301)
+### Unknown Build
+* Version 0.9 in the menu
+* Initial firmware on v1.1 hardware revisions
+* Unknown changes
+
+### [1117](1117)
+* Version 0.89 in the menu
+* Fixed backlight management and controls
+* Experimental sleep mode -- press and hold menu button to sleep or wake device
+* **This is the version I recommend.** 
+
+### [10.25.1](10.25.1)
+* Unknown changes, not tested
+> There's a big problem
+
+### [10.25](10.25)
+* Version 0.88 in the menu
+* Unknown changes, not tested
+* Latest stable version
+* **This is the version FP recommends.** 
+
+### [1015](1015)
 * Unknown changes, no notes, not tested
+
+### [1010](1010)
+* Version 0.87 in the menu -- lowered speaker minimum volume 
+* Fixed unknown (to me) audio issues in some games. I didn't press for specifics. 
+* If you want factory firmware, this is it. 
+
+### [1005](1005)
+* No internal version number -- added variable clock rate control
+* Version 0.86? I think my notes are wrong
+* Looks to be missing a screen display mode, full + pixel grid
+
+IMPORTANT -- When updating to this build or newer from an older build, it is possible to glitch your display mode. Full Screen + Pixel Grid mode was REMOVED but the configuration does NOT reset upon reflashing. Recommend change display mode before updating. If your display mode gets glitched, roll your firmware back to an earlier version, change display modes, then try again. 
 
 ### [0928](0928)
 > This version is unstable Other new problems have emerged
@@ -66,50 +100,17 @@ I don't have proper change logs for these updates. I only have context clues fro
 
 * Unknown changes, not tested
 
-### [1005](1005)
-* No internal version number -- added variable clock rate control
-* Version 0.86? I think my notes are wrong
-* Looks to be missing a screen display mode, full + pixel grid
-
-IMPORTANT -- When updating to this build or newer from an older build, it is possible to glitch your display mode. Full Screen + Pixel Grid mode was REMOVED but the configuration does NOT reset upon reflashing. Recommend change display mode before updating. If your display mode gets glitched, roll your firmware back to an earlier version, change display modes, then try again. 
-
-### [1010](1010)
-* Version 0.87 in the menu -- lowered speaker minimum volume 
-* Fixed unknown (to me) audio issues in some games. I didn't press for specifics. 
-* If you want factory firmware, this is it. 
-
-### [1015](1015)
+### [082301](082301)
 * Unknown changes, no notes, not tested
 
-### [10.25](10.25)
-* Version 0.88 in the menu
-* Unknown changes, not tested
-* Latest stable version
-* **This is the version FP recommends.** 
+### [0823](0823)
+* No internal version number -- Fixes GB Camera and Pokemon Crystal (US) compatibility and other SRAM/FRAM cart compatibility (insideGadgets and HDR carts)
+* Adds GBC palette mode display option. Toggle this option if sprites do not render properly in games under the GBC core (e.g. GB game running under GBC core may require a different option than just using the GB core)
+* "Engineering test build" -- menu open on every boot (may simply be closed)
 
-### [10.25.1](10.25.1)
-* Unknown changes, not tested
-> There's a big problem
-
-### [1117](1117)
-* Version 0.89 in the menu
-* Fixed backlight management and controls
-* Experimental sleep mode -- press and hold menu button to sleep or wake device
-* **This is the version I recommend.** 
-
-### Unknown Build
-* Version 0.9 in the menu
-* Initial firmware on v1.1 hardware revisions
-* Unknown changes
-
-### [2024.1.old](2024.1.old)
-* Version 1.02 in the menu
-* Updated boot screens now use Funnyplaying logos instead of Nintendo logos
-> Optimised left and right channels
-* Fixed Tetris multiplayer link
-* Graphical corruption on first boot[^2]
-* Latest test version.
-
+### [0725](0725)
+* No internal version number -- Fixes audio pop on start and adds stereo support to speaker
+* Not first firmware version but first firmware version that can be flashed without a dedicated FPGA programmer. Earlier versions not provided (and not yet dumped)
 
 ---
 
