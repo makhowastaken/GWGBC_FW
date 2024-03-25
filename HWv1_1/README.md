@@ -50,6 +50,15 @@ are from funnyplaying directly,
 
 **New!** Now ordered from newest to oldest like it should have been from the start.
 
+### [2024.03.25](2024.03.25)
+* Version 1.08 in the menu
+* Changed font
+* Decrease minimum volume
+* Fixed GB printer compatibility [(remove resistor r45)](2024.03.25\R45.png)
+* Added three display modes similar to original but with desaturated colors
+* "Flashing issue with battery level display"..?
+* I have included a [version with a patched bootloader](2024.03.25/patched_bootlogo) for a different aesthetic
+
 ### [2024.2.7](2024.2.7)
 * Version 1.06 in the menu
 * Lowered minimum volume

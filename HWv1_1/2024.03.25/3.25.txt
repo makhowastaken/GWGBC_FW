@@ -1,0 +1,18 @@
+2024.3.25 - 1.08版本更新说明：
+1、修改osd字体到原始字体
+2、加入3个模拟原始色彩的显示模式
+3、再降低最低音量
+4、打印机外设无法使用已修复（需要将主板电阻r45去掉）
+5、电量显示闪烁问题
+
+2024.3.25-1.08 version update instructions:
+
+1. Modify OSD font to original font
+
+2. Add 3 display modes that simulate the original colors
+
+3. Lower the minimum volume again
+
+4. The printer peripheral cannot be used and has been repaired (the motherboard resistor r45 needs to be removed)
+
+5. Flashing issue with battery level display
