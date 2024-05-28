@@ -3,7 +3,7 @@
 > [!CAUTION]
 > THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-[New v1.06 firmware!](2024.2.7/patched_bootlogo) for v1.1 hardware 
+[New v1.08 firmware!](2024.03.25/patched_bootlogo) for v1.1 hardware 
 
 [![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
@@ -49,6 +49,14 @@ are from funnyplaying directly,
 * bullet points are me paraphrasing.
 
 **New!** Now ordered from newest to oldest like it should have been from the start.
+
+### [2024.05.20](2024.05.20)
+* Version 1.09 in the menu
+* Fixed tilt sensor calibration with MBC7 based games (Kirby Tilt'n'Tumble and Command Master)
+* Fixed various other game graphical and technical issues (Tetris, Pokemon Puzzle Challenge, Grandia Parallel Trippers)
+* Added 12 GB Color Palettes
+* "Optimize mute when turning off the power amplifier"
+* While there is a [version with a different boot screen,](2024.05.20/patched_fw) some carts may not boot with this version. Try the standard 1.09 if you experience this. 
 
 ### [2024.03.25](2024.03.25)
 * Version 1.08 in the menu

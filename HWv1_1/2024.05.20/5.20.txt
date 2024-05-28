@@ -1,0 +1,28 @@
+bug修复：
+. 修复GB模式下不插卡带显示会卡住
+. 修复Kirby's tilt and tumble带重力感应失效问题，重力游戏往右下角偏转
+. 修复某些卡带显示异常
+. 修复Grandia - Parallel Trippers (J)游戏显示异常
+. 修复Pokemon Puzzle Challange 原始卡带显示异常
+. 修复俄罗斯方块无法存档
+
+
+功能修改：
+. 增加了12种GB调色板
+. 优化静音时候关闭功放
+
+
+Version 1.09
+
+bug fixes:
+.Fixed the display of an unplugged cassette stuck in GB mode
+. Fixed an issue with Kirby's tilt and tumble that caused the gravity game to drift to the bottom right
+. Fixed abnormal display of some cartridges
+. Fix Grandia-Parallel Trippers (J) game display exception
+. Fixed Pokemon Puzzle Challange original cassette display exception
+. Fixed Tetris could not be saved
+
+
+Function modification:
+. 12 GB color palettes added
+. Optimize mute when turning off the power amplifier
