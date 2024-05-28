@@ -33,6 +33,7 @@ I've made lots of feature requests of funnyplaying and they've implemented at le
 * IR functionality
 * AA battery support (really, guys?)
 * ~~faster charging~~ Implemented with v1.1 hardware
+* OLED Screen 
 
 Funnyplaying has mentioned some of these features in a way that sounds like they're trying to add to the next FW revision (pixel grid modes). From the inception of the device, Funnyplaying has planned IR function but since several revisions of retail boards have shipped without the requisite hardware, I wouldn't hold my breath. I'd treat the rest of these features like that too. Other features they want to add not just to the device but to their backlight kits too (like LUTs) and I expect them to show up there first. 
 
