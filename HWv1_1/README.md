@@ -3,7 +3,7 @@
 > [!CAUTION]
 > THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-[New v1.08 firmware!](2024.03.25/patched_bootlogo) for v1.1 hardware 
+[New v1.10 firmware!](2024.06.25/patched_fw) for v1.1 hardware 
 
 [![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
@@ -15,6 +15,11 @@ New on v1.1 (compared to v1.0)
 New on v1.11 (compared to v1.1)
 * Speaker resistor value changed to 150k instead of 51k. Unknown effect.
 * Two new caps near USB port. Unknown effect. 
+
+New on v1.12 (compared to v1.11)
+* New headphone jack (because the one with the metal ring looks cooler)
+* R45 unpopulated (for gb printer fix as of fw 1.08)
+* Colors 
  
 ## Updating
 
@@ -49,6 +54,19 @@ are from funnyplaying directly,
 * bullet points are me paraphrasing.
 
 **New!** Now ordered from newest to oldest like it should have been from the start.
+
+### [2024.06.25](2024.06.25)
+* Version 1.10 in the menu
+* Fixed issues with v1.09 (?)
+* Fixed a low volume issue with Kirby Tilt 'n' Tumble
+* Fixed glitched visuals in the following games: 
+>     Grandia - Parallel Trippers (J) Game Display exception
+>     Pokemon Puzzle Challange Original cassette Display exception
+* I have included a [version with a different boot screen,](2024.06.25/patched_fw) for a different aesthetic. You may find better compatibility with this version.
+* Also included is my internal test version with patched boot logo. I'm unsure what's different with this release compared to the final. 
+
+Known Issue
+> MidnightTrace CART V2 failed to run Pokemon, you can temporarily use the V1.1 firmware of the original BIOS
 
 ### [2024.05.20](2024.05.20)
 * Version 1.09 in the menu
