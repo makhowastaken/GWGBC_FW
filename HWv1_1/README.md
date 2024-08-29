@@ -19,7 +19,11 @@ New on v1.11 (compared to v1.1)
 New on v1.12 (compared to v1.11)
 * New headphone jack (because the one with the metal ring looks cooler)
 * R45 unpopulated (for gb printer fix as of fw 1.08)
-* Colors 
+* Fun new Colors 
+* Added button test pads to support [GBC LED Kit](https://retrogamerepairshop.com/products/funnyplaying-game-boy-color-gbc-button-led-kit)
+
+New on v1.13 (compared to v1.12)
+* Trace routing appears different. I am unsure why and I'm unsure what other changes were made. 
  
 ## Updating
 

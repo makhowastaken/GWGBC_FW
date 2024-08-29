@@ -12,7 +12,7 @@ To proceed to firmware files, select the image based on the hardware you have (b
 
 | [<img src="./media/v1.0_Front.jpg" width="350" />](HWv1_0/) | [<img src="./media/v1.1_Front.jpg" width="350" />](HWv1_1/) |
 | :---: | :---: |
-| [HW v1.0](HWv1_0/) | [HW v1.1/v1.11](HWv1_1/) |
+| [HW v1.0](HWv1_0/) | [HW v1.1 and newer](HWv1_1/) |
 
 Overview of the device itself via my video on the v1.1 hardware:
 
