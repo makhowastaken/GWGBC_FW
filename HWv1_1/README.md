@@ -59,6 +59,14 @@ are from funnyplaying directly,
 
 **New!** Now ordered from newest to oldest like it should have been from the start.
 
+### [2024.12.13](2024.12.13)
+* Version 1.14 in the menu
+> Fix the issue of some games having no sound
+> Fix the shaking problem when entering the battle screen of Pok é mon game
+> Adjust the minimum volume to address the issue of excessive volume
+* Fixes compatibility issues with flash carts
+>     Fix compatibility issues with some third-party card combinations
+
 ### [2024.06.25](2024.06.25)
 * Version 1.10 in the menu
 * Fixed issues with v1.09 (?)

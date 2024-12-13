@@ -1,0 +1,11 @@
+V1.14
+1.修复个别游戏没有声音的问题
+2.修复宝可梦游戏进入战斗画面时抖动问题
+3.调整最小音量过大问题
+4.修复一些第三方合卡的兼容性问题
+﻿
+
+1. Fix the issue of some games having no sound
+2. Fix the shaking problem when entering the battle screen of Pok é mon game
+3. Adjust the minimum volume to address the issue of excessive volume
+4. Fix compatibility issues with some third-party card combinations
