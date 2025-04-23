@@ -1,0 +1,9 @@
+v1.4 250217
+
+-修复原装卡带宝可梦系列运行异常问题
+-优化EZ烧录卡稳定性
+-修改开机logo图标 快速加载
+
+- Fix the abnormal operation issue of the originalGBC/GB Pokémon series
+- Optimize the stability of the EZ card
+- Modify the boot-up logo icon and speed up the loading process.

@@ -3,18 +3,14 @@
 > [!CAUTION]
 > THIS SECTION OF THE REPOSITORY IS ONLY FOR V1.1 HARDWARE. If you have have V1.0 or older, this firmware will NOT work on your device. 
 
-[New v1.10 firmware!](2024.06.25/patched_fw) for v1.1 hardware 
+[New v1.14 firmware!](2025.02.17/patched_fw) for v1.1 hardware 
 
 [![All Aftermarket Game Boy Color -- The Funnyplaying FPGA GBC (FP GBC HW v1.1)](https://img.youtube.com/vi/YM7wYx_SsRY/0.jpg)](https://www.youtube.com/watch?v=YM7wYx_SsRY)
 
-New on v1.1 (compared to v1.0)
-* More accurate clock speed
-* Faster charging (500mA -> 1A)
-* Updateable on macOS
+Hardware version notes
 
-New on v1.11 (compared to v1.1)
-* Speaker resistor value changed to 150k instead of 51k. Unknown effect.
-* Two new caps near USB port. Unknown effect. 
+New on v1.13 (compared to v1.12)
+* Trace routing appears different. I am unsure why and I'm unsure what other changes were made. 
 
 New on v1.12 (compared to v1.11)
 * New headphone jack (because the one with the metal ring looks cooler)
@@ -22,8 +18,14 @@ New on v1.12 (compared to v1.11)
 * Fun new Colors 
 * Added button test pads to support [GBC LED Kit](https://retrogamerepairshop.com/products/funnyplaying-game-boy-color-gbc-button-led-kit)
 
-New on v1.13 (compared to v1.12)
-* Trace routing appears different. I am unsure why and I'm unsure what other changes were made. 
+New on v1.11 (compared to v1.1)
+* Speaker resistor value changed to 150k instead of 51k. Unknown effect.
+* Two new caps near USB port. Unknown effect. 
+
+New on v1.1 (compared to v1.0)
+* More accurate clock speed
+* Faster charging (500mA -> 1A)
+* Updateable on macOS
  
 ## Updating
 
@@ -57,7 +59,25 @@ are from funnyplaying directly,
 
 * bullet points are me paraphrasing.
 
-**New!** Now ordered from newest to oldest like it should have been from the start.
+
+### [2025.02.17](2025.02.17)
+* *Also* version 1.14 in the menu
+> Fix the abnormal operation issue of the originalGBC/GB Pokémon series
+> Optimize the stability of the EZ card
+> Modify the boot-up logo icon and speed up the loading process.
+* I have included a [version with a different boot screen,](2025.02.17/patched_fw) for a different aesthetic. 
+
+
+### [2024.12.13](2024.12.13)
+* Version 1.14 in the menu
+> Fix the issue of some games having no sound
+> Fix the shaking problem when entering the battle screen of Pokémon game
+> Adjust the minimum volume to address the issue of excessive volume
+> Fix compatibility issues with some third-party card combinations
+> Fix EZ-FLASH Junior cartridge compatibility issue
+
+Known Issue
+* This version is considered UNSTABLE (justlikemefrfr)
 
 ### [2024.06.25](2024.06.25)
 * Version 1.10 in the menu
