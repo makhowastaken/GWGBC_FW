@@ -62,19 +62,19 @@ are from funnyplaying directly,
 
 ### [2025.02.17](2025.02.17)
 * *Also* version 1.14 in the menu
-> Fix the abnormal operation issue of the originalGBC/GB Pokémon series
-> Optimize the stability of the EZ card
-> Modify the boot-up logo icon and speed up the loading process.
+>     Fix the abnormal operation issue of the originalGBC/GB Pokémon series
+>     Optimize the stability of the EZ card
+>     Modify the boot-up logo icon and speed up the loading process.
 * I have included a [version with a different boot screen,](2025.02.17/patched_fw) for a different aesthetic. 
 
 
 ### [2024.12.13](2024.12.13)
 * Version 1.14 in the menu
-> Fix the issue of some games having no sound
-> Fix the shaking problem when entering the battle screen of Pokémon game
-> Adjust the minimum volume to address the issue of excessive volume
-> Fix compatibility issues with some third-party card combinations
-> Fix EZ-FLASH Junior cartridge compatibility issue
+>     Fix the issue of some games having no sound
+>     Fix the shaking problem when entering the battle screen of Pokémon game
+>     Adjust the minimum volume to address the issue of excessive volume
+>     Fix compatibility issues with some third-party card combinations
+>     Fix EZ-FLASH Junior cartridge compatibility issue
 
 Known Issue
 * This version is considered UNSTABLE (justlikemefrfr)
